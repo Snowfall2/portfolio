@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Footer() {
     return (
-        <footer className="mt-20 mb-4 footer">
+        <footer className="mt-20 py-4 footer mt-auto">
             <div className="flex justify-center">
                 <p className="flex justify-center p-2">Source Code of this website is available on</p>
                 <a href="https://github.com/Snowfall2/portfolio" target="_blank" rel="noreferrer" className="flex items-center gap-1 text-gray-600 transition-colors hover:text-gray-400">

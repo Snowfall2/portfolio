@@ -51,6 +51,7 @@ export default function ResumeDisplay() {
             <Project />
             <ExtraActivities />
             <Skills />
+            <div className="m-12" />
         </main>
     )
 }
