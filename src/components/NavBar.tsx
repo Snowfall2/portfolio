@@ -32,7 +32,7 @@ export default function NavBar() {
 
     return (
         <nav className="navbar">
-            <div className="flex h-14 items-center justify-between gap-8 px-4 sm:px-6 mx-0 max-w-4xl mx-auto">
+            <div className="flex h-14 items-center justify-between gap-8 px-4 sm:px-6 mx-0 max-w-7xl mx-auto">
                 <div/>
                 <div>
                     
