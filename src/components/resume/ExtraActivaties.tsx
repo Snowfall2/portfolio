@@ -3,34 +3,42 @@ import SubHeader from "./SubHeader";
 export default function ExtraActivities() {
     return (
         <section>
-            <Header name={"Extracirricular Activities"}/>
+            <Header name={"Extracurricular Activities"}/>
             <ul className="ml-4">
                 <li>
-                    <SubHeader title="Practical Algorithms Member" desc={null} beginDate={"January 2024"} endDate={"Present"}>
+                    <SubHeader title="Practical Algorithms Member" beginDate={"January 2024"} endDate={"Present"}>
                         <ul className="ml-4 list-disc my-1">
-                            <li>Hosted monthly competitive programming contests on codeforces</li>
+                            <li>Created accessible guides explaining algorithmic concepts to the general public</li>
+                            <li>Organized seasonal algorithmic contest</li>
                         </ul>
                     </SubHeader>
                 </li>
                 <li>
-                    <SubHeader title="TA of Data Structure and Algorithms courses" desc={null} beginDate={"August 2024"} endDate={"May 2025"}>
+                    <SubHeader title="ICPC Thailand Problem Setter" urls={["https://codeforces.com/gym/105335","https://codeforces.com/gym/106164"]} beginDate={"2024"} endDate={"2025"}>
+                        <ul className="ml-4 list-disc my-1">
+                            <li>Authored and tested problems for ICPC National 2024 and Regional 2025</li>
+                        </ul>
+                    </SubHeader>
+                </li>
+                <li>
+                    <SubHeader title="TA of Data Structure and Algorithms courses" beginDate={"August 2024"} endDate={"May 2025"}>
                         <ul className="ml-4 list-disc my-1">
                             <li>Assisted professor in preparing exam documents and designing test cases</li>
                         </ul>
                     </SubHeader>
                 </li>
                 <li>
-                    <SubHeader title="CUSC Automated Reservation" desc={null} beginDate={"March 2025"} endDate={"April 2025"}>
+                    <SubHeader title="CUSC Automated Reservation" beginDate={"March 2025"} endDate={"April 2025"}>
                         <ul className="ml-4 list-disc my-1">
-                            <li>Automated sport court reservation by calling APIs using Python request</li>
-                            <li>Devised a method to reserve a court using token from two userst</li>
+                            <li>Automated sport court reservation by calling APIs using Python requests library</li>
+                            <li>Devised a method to reserve a court using token from two users</li>
                         </ul>
                     </SubHeader>
                 </li>
                 <li>
-                    <SubHeader title="Crack 'n' Code Member" desc={null} beginDate={"July 2021"} endDate={"August 2024"}>
+                    <SubHeader title="Crack 'n' Code Member" urls={["https://codeforces.com/group/rn8uJP8lA7"]} beginDate={"July 2021"} endDate={"August 2024"}>
                         <ul className="ml-4 list-disc my-1">
-                            <li>Hosted monthly competitive programming contests on codeforces</li>
+                            <li>Organized monthly competitive programming contests on codeforces</li>
                         </ul>
                     </SubHeader>
                 </li>
