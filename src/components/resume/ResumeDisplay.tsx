@@ -3,7 +3,8 @@ import Education from "./Education";
 import WorkExperience from "./WorkExperience";
 import Capstone from "./Capstone";
 import CourseProject from "./CourseProject";
-import SubHeader from "./SubHeader";
+import ExtraActivities from "./ExtraActivaties";
+import Skills from "./Skills";
 export default function ResumeDisplay() {
 
     return (
@@ -33,6 +34,8 @@ export default function ResumeDisplay() {
             <WorkExperience />
             <Capstone />
             <CourseProject />
+            <ExtraActivities />
+            <Skills />
         </main>
     )
 }
