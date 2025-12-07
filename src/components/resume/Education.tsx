@@ -8,7 +8,8 @@ export default function Education() {
                 <li>
                     <div className="flex justify-between text-lg">
                         <p ><b>Chulalongkorn University</b>, B.Eng. Computer Engineering (GPAX 3.38)</p>
-                        <p className="font-bold">July 2021 - August 2025</p>
+                        <p className="font-bold text-right min-w-30 max-md:hidden">July 2021 - August 2025</p>
+                        <p className="font-bold text-right min-w-30 md:hidden">July 2021<br/>- August 2025</p>
                     </div>
                 </li>
             </ul>

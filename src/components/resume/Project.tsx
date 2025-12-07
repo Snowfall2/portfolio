@@ -6,10 +6,10 @@ export default function Project() {
             <Header name={"Projects"}/>
             <ul className="ml-4">
                 <li>
-                    <SubHeader title="Codeforces Visualizer" urls={["https://github.com/Snowfall2/codeforces-visualizer"]} beginDate={"November 2025"} endDate={"Present"}>
+                    <SubHeader title="Codeforces Visualizer" urls={["https://github.com/Snowfall2/codeforces-visualizer", "https://cf-analysis.netlify.app/"]} beginDate={"November 2025"} endDate={"Present"}>
                         <ul className="ml-4 list-disc my-1">
                             <li>Implement summary dashboard for user analysis using MUI</li>
-                            <li>Cache response data for efficient processing</li>
+                            <li>Cache response for efficient data processing</li>
                         </ul>
                     </SubHeader>
                 </li>

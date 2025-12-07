@@ -6,7 +6,7 @@ export default function ExtraActivities() {
             <Header name={"Extracurricular Activities"}/>
             <ul className="ml-4">
                 <li>
-                    <SubHeader title="Practical Algorithms Member" beginDate={"January 2024"} endDate={"Present"}>
+                    <SubHeader title="Practical Algorithms Core Team" urls={["https://practical-algo.com/"]} beginDate={"January 2024"} endDate={"Present"}>
                         <ul className="ml-4 list-disc my-1">
                             <li>Created accessible guides explaining algorithmic concepts to the general public</li>
                             <li>Organized seasonal algorithmic contest</li>
@@ -36,7 +36,7 @@ export default function ExtraActivities() {
                     </SubHeader>
                 </li>
                 <li>
-                    <SubHeader title="Crack 'n' Code Member" urls={["https://codeforces.com/group/rn8uJP8lA7"]} beginDate={"July 2021"} endDate={"August 2024"}>
+                    <SubHeader title="Crack 'n' Code Core Team" urls={["https://codeforces.com/group/rn8uJP8lA7"]} beginDate={"July 2021"} endDate={"August 2024"}>
                         <ul className="ml-4 list-disc my-1">
                             <li>Organized monthly competitive programming contests on codeforces</li>
                         </ul>
