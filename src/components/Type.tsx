@@ -1,3 +1,4 @@
+"use client"
 import Typewriter from "typewriter-effect";
 
 function Type() {
@@ -5,14 +6,15 @@ function Type() {
     <Typewriter
       options={{
         strings: [
+          "New Graduate Student",
+          "Data Enthusiast",
           "Software Developer",
-          "Freelancer",
-          "MERN Stack Developer",
-          "Open Source Contributor",
         ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
+        wrapperClassName: "text-3xl text-blue-700",
+        cursorClassName: "text-3xl"
       }}
     />
   );
