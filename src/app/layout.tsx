@@ -32,7 +32,7 @@ export default function RootLayout({
           <NavBar/>
           <main className="mx-auto w-[calc(100%-48px)] max-w-7xl">
             <div className="mt-20"></div>
-            {children}
+              {children}
           </main>
           <Footer/>
       </body>

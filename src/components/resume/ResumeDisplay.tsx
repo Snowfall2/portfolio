@@ -5,6 +5,7 @@ import Capstone from "./Capstone";
 import ExtraActivities from "./ExtraActivaties";
 import Skills from "./Skills";
 import Project from "./Project";
+import Achievement from "./Achievement";
 export default function ResumeDisplay() {
 
     return (
@@ -50,6 +51,7 @@ export default function ResumeDisplay() {
             <Capstone />
             <Project />
             <ExtraActivities />
+            <Achievement />
             <Skills />
             <div className="m-12" />
         </main>
