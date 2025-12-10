@@ -4,7 +4,7 @@ export default function ExtraActivities() {
     return (
         <section>
             <Header name={"Extracurricular Activities"}/>
-            <ul className="ml-4">
+            <ul className="">
                 <li>
                     <SubHeader title="Practical Algorithms Core Team" urls={["https://practical-algo.com/"]} beginDate={"January 2024"} endDate={"Present"}>
                         <ul className="ml-4 list-disc my-1">

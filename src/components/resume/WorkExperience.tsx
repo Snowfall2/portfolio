@@ -4,7 +4,7 @@ export default function WorkExperience() {
     return (
         <section>
             <Header name={"Work Experience"}/>
-            <ul className="ml-4">
+            <ul className="">
                 <li>
                     <SubHeader title="Lumio3D" beginDate={"March 2024"} endDate={"July 2024"} desc={"Software Engineer Intern/Part-Time"}>
                         

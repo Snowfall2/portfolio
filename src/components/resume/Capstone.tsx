@@ -4,7 +4,7 @@ export default function Capstone() {
     return (
         <section>
             <Header name={"Capstone Project"}/>
-            <ul className="ml-4">
+            <ul className="">
                 <li>
                     <SubHeader title="DeepGI" desc={"AI for detecting polyp"} beginDate={"August 2024"} endDate={"May 2025"}>
                         <ul className="ml-4 list-disc my-1">

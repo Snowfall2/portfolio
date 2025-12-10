@@ -14,9 +14,8 @@ export default function NavBar() {
     useEffect(() => {
         window.addEventListener('resize', () => {
             if(window.innerWidth >= 768) setToggle(false)
-        });
+            });
     }, [])
-
     function handleToggle() {
         setToggle(!toggle)
     }
@@ -49,7 +48,7 @@ export default function NavBar() {
                 <div className="flex flex-col w-full items-center py-0 min-md:hidden">
                     {
                     navLink.map((link, id) => (
-                        <Link href={link.href} key={link.name} className={getLinkClass(link.href, false)}>
+                        <Link href={link.href} key={link.name} className={getLinkClass(link.href, false)} onClick={() => {setToggle(false)}}>
                             {link.name} 
                         </Link>
                     ))}

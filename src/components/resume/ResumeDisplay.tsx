@@ -9,7 +9,7 @@ import Achievement from "./Achievement";
 export default function ResumeDisplay() {
 
     return (
-        <main className="mx-auto w-[calc(100%-48px)] max-w-7xl">
+        <main className="mx-auto px-2 max-w-7xl">
             <div className="flex flex-col md:flex-row justify-between mt-12">
                 <div className="flex-1 w-48">
                     <div className="flex gap-2">

@@ -4,7 +4,7 @@ export default function Project() {
     return (
         <section>
             <Header name={"Projects"}/>
-            <ul className="ml-4">
+            <ul className="">
                 <li>
                     <SubHeader title="Codeforces Visualizer" urls={["https://github.com/Snowfall2/codeforces-visualizer", "https://cf-analysis.netlify.app/"]} beginDate={"November 2025"} endDate={"Present"}>
                         <ul className="ml-4 list-disc my-1">

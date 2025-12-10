@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Inter, Roboto } from 'next/font/google'
 import "./globals.css";
@@ -16,8 +17,7 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "Tonsak Portfolio",
-  description: "Website for showcase works and achievement",
+  title: "Codeforces Visualizer",
 };
 
 export default function RootLayout({
