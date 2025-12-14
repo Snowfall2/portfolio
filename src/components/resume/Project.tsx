@@ -10,6 +10,7 @@ export default function Project() {
                         <ul className="ml-4 list-disc my-1">
                             <li>Implemented summary dashboard for user analysis using MUI</li>
                             <li>Cached response for efficient data processing</li>
+                            <li>Implement client side pagination for searching/filtering problem submissions</li>
                         </ul>
                     </SubHeader>
                 </li>
