@@ -17,7 +17,7 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "Codeforces Visualizer",
+  title: "Portfolio",
 };
 
 export default function RootLayout({
